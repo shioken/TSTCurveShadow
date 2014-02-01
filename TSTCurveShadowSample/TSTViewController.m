@@ -20,6 +20,7 @@
     [super viewDidLoad];
     
     [self.sampleView.layer addCurveShadow];
+    [self.sampleLabel.layer addCurveShadow];
 }
 
 - (void)didReceiveMemoryWarning

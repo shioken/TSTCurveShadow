@@ -11,5 +11,6 @@
 @interface TSTViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UIView *sampleView;
+@property (weak, nonatomic) IBOutlet UILabel *sampleLabel;
 
 @end
