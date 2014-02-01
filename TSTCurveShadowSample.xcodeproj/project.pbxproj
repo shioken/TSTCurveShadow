@@ -21,6 +21,7 @@
 		3EAFCD95189D3431000F9A2E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EAFCD77189D3431000F9A2E /* UIKit.framework */; };
 		3EAFCD9D189D3431000F9A2E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3EAFCD9B189D3431000F9A2E /* InfoPlist.strings */; };
 		3EAFCD9F189D3431000F9A2E /* TSTCurveShadowSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EAFCD9E189D3431000F9A2E /* TSTCurveShadowSampleTests.m */; };
+		3EAFCDAB189D3474000F9A2E /* CALayer+tst_curveshadow.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EAFCDAA189D3474000F9A2E /* CALayer+tst_curveshadow.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		3EAFCD9A189D3431000F9A2E /* TSTCurveShadowSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TSTCurveShadowSampleTests-Info.plist"; sourceTree = "<group>"; };
 		3EAFCD9C189D3431000F9A2E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3EAFCD9E189D3431000F9A2E /* TSTCurveShadowSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSTCurveShadowSampleTests.m; sourceTree = "<group>"; };
+		3EAFCDA9189D3474000F9A2E /* CALayer+tst_curveshadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CALayer+tst_curveshadow.h"; path = "TSTCurveShadow/CALayer+tst_curveshadow.h"; sourceTree = "<group>"; };
+		3EAFCDAA189D3474000F9A2E /* CALayer+tst_curveshadow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CALayer+tst_curveshadow.m"; path = "TSTCurveShadow/CALayer+tst_curveshadow.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,7 @@
 		3EAFCD79189D3431000F9A2E /* TSTCurveShadowSample */ = {
 			isa = PBXGroup;
 			children = (
+				3EAFCDA8189D3437000F9A2E /* TSTCurveShadow */,
 				3EAFCD82189D3431000F9A2E /* TSTAppDelegate.h */,
 				3EAFCD83189D3431000F9A2E /* TSTAppDelegate.m */,
 				3EAFCD85189D3431000F9A2E /* Main.storyboard */,
@@ -150,6 +154,15 @@
 				3EAFCD9B189D3431000F9A2E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3EAFCDA8189D3437000F9A2E /* TSTCurveShadow */ = {
+			isa = PBXGroup;
+			children = (
+				3EAFCDA9189D3474000F9A2E /* CALayer+tst_curveshadow.h */,
+				3EAFCDAA189D3474000F9A2E /* CALayer+tst_curveshadow.m */,
+			);
+			name = TSTCurveShadow;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3EAFCD84189D3431000F9A2E /* TSTAppDelegate.m in Sources */,
+				3EAFCDAB189D3474000F9A2E /* CALayer+tst_curveshadow.m in Sources */,
 				3EAFCD8A189D3431000F9A2E /* TSTViewController.m in Sources */,
 				3EAFCD80189D3431000F9A2E /* main.m in Sources */,
 			);

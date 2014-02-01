@@ -7,6 +7,7 @@
 //
 
 #import "TSTViewController.h"
+#import "CALayer+tst_curveshadow.h"
 
 @interface TSTViewController ()
 
@@ -17,7 +18,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    [self.sampleView.layer addCurveShadow];
 }
 
 - (void)didReceiveMemoryWarning
